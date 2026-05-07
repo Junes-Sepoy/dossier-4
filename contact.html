@@ -42,7 +42,8 @@
                 <p class="contact-text">Signal/Whatsapp us at <a href="https://wa.me/919266870877" target="_blank">+91 92668 70877</a></p>
                 <p class="contact-text">Write to us at <a href="mailto:hello@kahamind.com">hello@kahamind.com</a></p>
                 <p class="contact-text or-text">OR</p>
-                <p class="contact-text">Fill up this form and we'll get back to you as soon as possible!</p>
+                <p class="contact-text">We're here to support you on your journey.<br>
+                 Please share a bit about yourself so we can provide the best care.</p>
             </section>
 
             <!-- Contact Form -->
@@ -70,8 +71,18 @@
                     <input type="checkbox" name="botcheck" style="display: none;">
 
                     <div class="form-group">
-                        <label for="name">Name *</label>
+                        <label for="name">Full Name *</label>
                         <input type="text" id="name" name="name" required>
+                    </div>
+
+                     <div class="form-group">
+                        <label for="name">Pronouns </label>
+                        <input type="text" id="pronouns" name="name">
+                    </div>
+
+                     <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
                     </div>
 
                     <div class="form-group">
@@ -80,14 +91,35 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
+                        <label for="email">Age *</label>
+                        <input type="age" id="Age" name="email" required>
+                    </div>
+
+                     <div class="form-group">
+                        <label for="phone">What concerns are you seeking help for? *</label>
+                        <textarea type="text" id="concerns" name="concerns" rows="6" required></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
+                        <label for="phone">Where are you currently based? *</label>
+                        <input type="text" id="base" name="bas"required>
                     </div>
+
+                    <div class="form-group">
+                        <label for="phone">Could you let us know your city? *</label>
+                        <input type="text" id="city" name="city" required required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Have you ever been to therapy before? *</label>
+                        <textarea type="text" id="therapy" name="therapy" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Do you know anyone who has taken therapy with us? *</label>
+                        <textarea type="text" id="anyone" name="anyone" rows="2" required></textarea>
+                    </div>
+
 
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
